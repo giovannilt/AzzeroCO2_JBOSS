@@ -1,0 +1,11 @@
+<datasources>
+<local-tx-datasource>
+<jndi-name>AzzeroCO2-DS</jndi-name>
+<connection-url>jdbc:mysql://localhost:3306/azzeroco2</connection-url>
+<driver-class>com.mysql.jdbc.Driver</driver-class>
+<user-name>root</user-name>
+<password>root</password>
+<min-pool-size>5</min-pool-size>
+<max-pool-size>20</max-pool-size>
+</local-tx-datasource>
+</datasources>
