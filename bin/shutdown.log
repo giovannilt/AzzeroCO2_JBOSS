@@ -1,4 +1,4 @@
-Shutting down AzzeroC02 [2011-06-23 11:31:32]
+Shutting down AzzeroC02 [2011-11-26 22:40:20]
 Exception in thread "main" javax.naming.CommunicationException: Could not obtain connection to any of these urls: localhost:2099 [Root exception is javax.naming.CommunicationException: Failed to connect to server localhost:2099 [Root exception is javax.naming.ServiceUnavailableException: Failed to connect to server localhost:2099 [Root exception is java.net.ConnectException: Connection refused: connect]]]
 	at org.jnp.interfaces.NamingContext.checkRef(NamingContext.java:1562)
 	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:634)
@@ -26,4 +26,4 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at org.jnp.interfaces.TimedSocketFactory.createSocket(TimedSocketFactory.java:77)
 	at org.jnp.interfaces.NamingContext.getServer(NamingContext.java:244)
 	... 5 more
-Shutdown AzzeroC02 service [2011-06-23 11:31:40]
+Shutdown AzzeroC02 service [2011-11-26 22:40:21]
